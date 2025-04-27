@@ -7,7 +7,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import LabelEncoder
 
 # Load the processed data
-df = pd.read_csv("district_drought_model.csv")  # Replace with your actual file name
+df = pd.read_csv("drought_classification_results.csv")  # Replace with your actual file name
 
 # Sidebar filters
 st.sidebar.title("Filters")
